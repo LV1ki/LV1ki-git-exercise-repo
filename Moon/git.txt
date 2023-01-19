@@ -1,0 +1,54 @@
+폴더 생성 (mkdir = make directory)
+mkdir Moon
+
+생성한 Moon 폴더로 이동 (cd = change directory)
+cd Moon
+
+파일 생성과 동시에 파일에 글자를 적고 싶을 때 echo
+echo file2 > file2.txt
+
+파일만 생성하고 싶을 때: touch
+touch file1.txt
+
+이미 생성된 파일에 내용을 추가하고 싶을때
+echo add >> file2.txt
+
+Staging Area에 파일추가
+git add .
+
+Staging Area 상태를 확인하고 싶을 때
+git status
+
+커밋 메세지를 한 줄만 적고 싶을때
+git commit -m "aaaa"
+
+커밋 메세지를 여러 줄 적고 싶을때
+git commit
+
+Remote Repository로 전달
+
+커밋의 빈도
+1. 너무 잦은 커밋: 매 파일이 변경되 때마다 커밋x
+2. 너무 가끔 커밋: 수십 수백 개의 파일로 만들어서 한 번 커밋
+
+
+회원가입 기능
+로그인 기능
+
+회원가입 기능 ==> Commit
+
+
+회원가입 + 로그인 ==> Commit
+rm file1.txt + git add + git commit ==> 한 큐에
+==> git rm file1.txt
+
+// 파일 이름 변경하기 mv 기존파일이름 변경파일이름
+mv file.txt test.txt 
+
+온라인 저장소를 만드는데
+해당 저장소에는 절대 보내면 안되는 파일
+내컴퓨터 환경변수
+
+.gitignore 생성 후 ignore 할 파일 이름 작성
+
+app.js
