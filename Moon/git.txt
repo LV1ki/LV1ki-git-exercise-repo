@@ -1,5 +1,5 @@
 폴더 생성 (mkdir = make directory)
-mkdir Moon
+mkdir Moon (make directories)
 
 생성한 Moon 폴더로 이동 (cd = change directory)
 cd Moon
@@ -14,8 +14,8 @@ touch file1.txt
 echo add >> file2.txt
 
 Staging Area에 파일추가
-git add .
-
+git add . (모든 파일)
+git add 파일이름 (그 파일만 업데이트)
 Staging Area 상태를 확인하고 싶을 때
 git status
 
